@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Prabhdeep Singh</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Template Name: Instant
+    Template URL: https://templatemag.com/instant-bootstrap-personal-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!-- Static navbar -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+      <button onclick="increaseTxt();" title="Increase font size">A+</button>
+      <button onclick="decreaseTxt();" title="Decrease sont fize">A-</button>
+      <button onclick="defaultTxt();" title="Reset Text Size">A</button>
+      <button onclick="dark();" title="Dark Theme" id="dark">Dark</button>
+      <button onclick="grey();" title="Grey Theme" id="grey">Grey</button>
+      <button onclick="light();" title="Light Theme" id="light">Light</button>
+      <a href="#maincontent" title="click to reach main content" class="down">Skip to main content</a>
+      <a href="screenreader.html" title="click here to open screen reader page" class="down">Screen Reader Access</a>
+      </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html" aria-label="click here to go to Home page">Home</a></li>
+          <li><a href="about.html" aria-label="click here to go to About page">About</a></li>
+          <li><a href="works.html" class="smoothscroll" aria-label="click here to go to Works page">Works</a></li>
+          <li><a href="contact.html" class="smoothscroll" aria-label="click here to go to Contact Page">Contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+<div class="container">
+ <div class="row centered mt mb">
+    <div class="col-lg-8 col-lg-offset-2" tabindex="0">
+      <hr>
+      <h2 id='maincontent' tabindex="0">Screen Reader Access</h2>
+      <p tabindex="0">Information related to various Screen Readers</p>
+      <div class="table-responsive">
+        <table class="table table-bordered"><thead><tr><th tabindex="0"><strong>Screen Reader</strong></th>
+        <th tabindex="0"><strong>Website</strong></th>
+        <th tabindex="0"><strong>Free / Commercial</strong></th>
+        </tr></thead><tbody><tr><td tabindex="0">Non Visual Desktop Access (NVDA)</td>
+        <td tabindex="0"><a href="http://www.nvda-project.org/" target="_blank" title="External website that opens in a new window :- Non Visual Desktop Access (NVDA)">http://www.nvda-project.org/<span class="ext"><span class="element-invisible"> (link is external)</span></span></a><br />
+                    (External website that opens in a new window)</td>
+        <td tabindex="0">Free</td>
+        </tr><tr><td tabindex="0">WebAnywhere</td>
+        <td tabindex="0"><a href="http://webinsight.cs.washington.edu/" target="_blank" title="External website that opens in a new window :- WebAnywhere">http://webinsight.cs.washington.edu/ <span class="ext"><span class="element-invisible"> (link is external)</span></span></a><br />
+                    (External website that opens in a new window)</td>
+        <td tabindex="0">Commercial</td>
+        </tr><tr><td tabindex="0">Hal</td>
+        <td tabindex="0"><a href="http://www.yourdolphin.co.uk/productdetail.asp?id=5" target="_blank" title="External website that opens in a new window :- Hal">http://www.yourdolphin.co.uk/productdetail.asp?id=5 <span class="ext"><span class="element-invisible"> (link is external)</span></span></a><br />
+                    (External website that opens in a new window)</td>
+        <td tabindex="0">Commercial</td>
+        </tr><tr><td tabindex="0">JAWS</td>
+        <td tabindex="0"><a href="http://www.freedomscientific.com/Downloads/JAWS" target="_blank" title="External website that opens in a new window :- JAWS">http://www.freedomscientific.com/Downloads/JAWS<span class="ext"><span class="element-invisible"> (link is external)</span></span></a><br />
+                    (External website that opens in a new window)</td>
+        <td tabindex="0">Commercial</td>
+        </tr><tr><td tabindex="0">Supernova</td>
+        <td tabindex="0"><a href="http://www.yourdolphin.co.uk/productdetail.asp?id=1" target="_blank" title="External website that opens in a new window :- Supernova">http://www.yourdolphin.co.uk/productdetail.asp?id=1 <span class="ext"><span class="element-invisible"> (link is external)</span></span></a><br />
+                    (External website that opens in a new window)</td>
+        <td tabindex="0">Commercial</td>
+        </tr><tr><td tabindex="0">Window-Eyes</td>
+        <td tabindex="0"><a href="http://www.gwmicro.com/Window-Eyes/" target="_blank" title="External website that opens in a new window :- Window-Eyes">http://www.gwmicro.com/Window-Eyes/ <span class="ext"><span class="element-invisible"> (link is external)</span></span> </a><br />
+                    (External website that opens in a new window)</td>
+        <td tabindex="0">Commercial</td>
+        </tr></tbody></table></div>
+    </div>
+</div>
+</div>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/php-mail-form/validate.js"></script>
+<script src="js/screenreader.js"></script>
+</body>
+</html>
