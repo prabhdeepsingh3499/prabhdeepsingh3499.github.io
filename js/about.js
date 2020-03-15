@@ -1,3 +1,4 @@
+
 const increaseTxt = () => {
     var arr = document.querySelectorAll("p");
     var length = arr.length;
