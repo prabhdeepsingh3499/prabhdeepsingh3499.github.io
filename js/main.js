@@ -6,11 +6,11 @@ const increaseTxt = () => {
     {
         listarr[j].style.fontSize = '20px';
     }
-    var h4_arr = document.querySelectorAll("h4");
-    var h4_len = h4_arr.length;
-    for(var j=0;j<h4_len;j++)
+    var h3_arr = document.querySelectorAll("h3");
+    var h3_len = h3_arr.length;
+    for(var j=0;j<h3_len;j++)
     {
-        h4_arr[j].style.fontSize = '24px';
+        h3_arr[j].style.fontSize = '30px';
     }
     var h1_arr = document.querySelectorAll("h1");
     h1_arr[0].style.fontSize = '90px';
@@ -38,11 +38,11 @@ const decreaseTxt = () => {
     {
         listarr[j].style.fontSize = '10px';
     }
-    var h4_arr = document.querySelectorAll("h4");
-    var h4_len = h4_arr.length;
-    for(var j=0;j<h4_len;j++)
+    var h3_arr = document.querySelectorAll("h3");
+    var h3_len = h3_arr.length;
+    for(var j=0;j<h3_len;j++)
     {
-        h4_arr[j].style.fontSize = '12px';
+        h3_arr[j].style.fontSize = '18px';
     }
     var h1_arr = document.querySelectorAll("h1");
     h1_arr[0].style.fontSize = '40px';
@@ -68,11 +68,11 @@ const defaultTxt = () => {
     {
         listarr[j].style.fontSize = '15px';
     }
-    var h4_arr = document.querySelectorAll("h4");
-    var h4_len = h4_arr.length;
-    for(var j=0;j<h4_len;j++)
+    var h3_arr = document.querySelectorAll("h3");
+    var h3_len = h3_arr.length;
+    for(var j=0;j<h3_len;j++)
     {
-        h4_arr[j].style.fontSize = '18px';
+        h3_arr[j].style.fontSize = '24px';
     }
     var h1_arr = document.querySelectorAll("h1");
     h1_arr[0].style.fontSize = '60px';
@@ -100,11 +100,11 @@ const dark = () =>{
     {
         listarr[j].style.color = '#FFFF33';
     }
-    var h4_arr = document.querySelectorAll("h4");
-    var h4_len = h4_arr.length;
-    for(var j=0;j<h4_len;j++)
+    var h3_arr = document.querySelectorAll("h3");
+    var h3_len = h3_arr.length;
+    for(var j=0;j<h3_len;j++)
     {
-        h4_arr[j].style.color = "#FFFF33";
+        h3_arr[j].style.color = "#FFFF33";
     }
     var h1_arr = document.querySelectorAll("h1");
     h1_arr[0].style.color = '#FFFF33';
@@ -125,11 +125,11 @@ const grey = () => {
     {
         listarr[j].style.color = '#FFFF33';
     }
-    var h4_arr = document.querySelectorAll("h4");
-    var h4_len = h4_arr.length;
-    for(var j=0;j<h4_len;j++)
+    var h3_arr = document.querySelectorAll("h3");
+    var h3_len = h3_arr.length;
+    for(var j=0;j<h3_len;j++)
     {
-        h4_arr[j].style.color = "#FFFF33";
+        h3_arr[j].style.color = "#FFFF33";
     }
     var h1_arr = document.querySelectorAll("h1");
     h1_arr[0].style.color = '#FFFF33';
@@ -150,11 +150,11 @@ const light = () => {
     {
         listarr[j].style.color = 'black';
     }
-    var h4_arr = document.querySelectorAll("h4");
-    var h4_len = h4_arr.length;
-    for(var j=0;j<h4_len;j++)
+    var h3_arr = document.querySelectorAll("h3");
+    var h3_len = h3_arr.length;
+    for(var j=0;j<h3_len;j++)
 {
-        h4_arr[j].style.color = "black";
+        h3_arr[j].style.color = "black";
     }
     var h1_arr = document.querySelectorAll("h1");
     h1_arr[0].style.color = 'white';

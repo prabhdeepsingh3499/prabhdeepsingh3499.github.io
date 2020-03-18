@@ -11,7 +11,7 @@ const increaseTxt = () => {
     {
         h1_arr[i].style.fontSize = '90px';
     }
-    document.getElementById("maincontent").style.fontSize = '24px';
+    document.getElementById("maincontent").style.fontSize = '36px';
     var listarr = document.querySelectorAll("li");
     var l_length = listarr.length;
     for(var j=0;j<l_length;j++)
@@ -32,7 +32,7 @@ const decreaseTxt = () => {
     {
         h1_arr[i].style.fontSize = '70px';
     }
-    document.getElementById("maincontent").style.fontSize = '12px';
+    document.getElementById("maincontent").style.fontSize = '24px';
     var listarr = document.querySelectorAll("li");
     var l_length = listarr.length;
     for(var j=0;j<l_length;j++)
@@ -53,7 +53,7 @@ const defaultTxt = () => {
     {
         h1_arr[i].style.fontSize = '80px';
     }
-    document.getElementById("maincontent").style.fontSize = '18px';
+    document.getElementById("maincontent").style.fontSize = '30px';
     var listarr = document.querySelectorAll("li");
     var l_length = listarr.length;
     for(var j=0;j<l_length;j++)
