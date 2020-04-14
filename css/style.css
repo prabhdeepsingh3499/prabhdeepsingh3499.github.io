@@ -32,7 +32,7 @@ button{
   color: black;
 }
 body{
-    background: black;
+    background: #121212;
   }
 ::-moz-selection {
     background: #f2c2c9;
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/keyboard.jfif) no-repeat center top;
+	background: url(../img/keyboard.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 #social {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color: black;
+	background-color: #121212;
 }
 
 #social i {
