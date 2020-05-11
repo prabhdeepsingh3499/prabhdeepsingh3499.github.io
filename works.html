@@ -43,9 +43,9 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <button onclick="increaseTxt();" aria-label="Increase font size">A+</button>
-          <button onclick="decreaseTxt();" aria-label="Decrease font size">A-</button>
-          <button onclick="defaultTxt();" aria-label="Reset font size">A</button>
+          <button onclick="increaseTxt();" title="Increase font size">A+</button>
+          <button onclick="decreaseTxt();" title="Decrease font size">A-</button>
+          <button onclick="defaultTxt();" title="Reset font size">A</button>
           <button onclick="dark();" title="Dark Theme" id="dark">Dark</button>
           <button onclick="grey();" title="Grey Theme" id="grey">Grey</button>
           <button onclick="light();" title="Light Theme" id="light">Light</button>
@@ -56,10 +56,10 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html" aria-label="click here to open Home Page">Home</a></li>
-          <li><a href="about.html" aria-label="click here to open About Page">About</a></li>
-          <li class="active"><a href="works.html" class="smoothscroll" aria-label="Works Page">Works</a></li>
-          <li><a href="contact.html" class="smoothscroll" aria-label="Click here to open Contact Page">Contact</a></li>
+          <li><a href="index.html" title="Home Page">Home</a></li>
+          <li><a href="about.html" title="About Page">About</a></li>
+          <li class="active"><a href="works.html" class="smoothscroll" title="Works Page">Works</a></li>
+          <li><a href="contact.html" class="smoothscroll" title="Contact Page">Contact</a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -82,11 +82,20 @@
   <div class="container">
     <div class="row centered mt mb" tabindex="0">
       <div class="col-lg-8 col-lg-offset-2">
-        <h2 id="maincontent" tabindex="0">Recommender System</h2>
+        <h2 id="maincontent" tabindex="0">BonTemps Recommender System</h2>
         <p tabindex="0">A Web App that recommends top 10 movies or songs based on user input.</p>
         <p tabindex="0">Languages Used-Python,HTML,CSS</p>
         <p tabindex="0">Libraries/Frameworks-sklearn,pandas,flask,numpy</p>
-        <p><a href="http://movie-rec-prabh.herokuapp.com/">Deployed Web App</a></p>
+        <button class="works_button"><a href="http://movie-rec-prabh.herokuapp.com/" class="works_link">Deployed Web
+            App</a></button>
+        <h2 tabindex="0">Movie Review Sentiment Analysis</h2>
+        <p tabindex="0">Classifying movie reviews as either positive or negative using Machine Learning and Natural
+          Language Processing Algorithms.</p>
+        <p tabindex="0">Languages Used-Python</p>
+        <p tabindex="0">Libraries-pandas,numpy,matplotlib,sklearn,nltk</p>
+        <button class="works_button"><a href="https://github.com/prabhdeepsingh3499/movie-review-sentiment-analysis"
+            class="works_link">GitHub</a></button>
+
       </div>
 
 
@@ -103,20 +112,19 @@
       <div class="row centered">
 
         <div class="col-lg-3">
-          <a href="https://www.facebook.com/prabhdeep.singh.3499" aria-label="click here to open Facebook Page"><em
+          <a href="https://www.facebook.com/prabhdeep.singh.3499" title="Facebook Page"><em
               class="fa fa-facebook"></em></a>
         </div>
         <div class="col-lg-3">
-          <a href="https://www.linkedin.com/in/prabhdeep-singh-946672156/"
-            aria-label="click here to open Linkedin page"><em class="fa fa-linkedin"></em></a>
+          <a href="https://www.linkedin.com/in/prabhdeep-singh-946672156/" title="Linkedin page"><em
+              class="fa fa-linkedin"></em></a>
         </div>
         <div class="col-lg-3">
-          <a href="https://www.instagram.com/prabhdeep.singh.3499/" aria-label="click here to Open Instagram page"><em
+          <a href="https://www.instagram.com/prabhdeep.singh.3499/" title="Instagram page"><em
               class="fa fa-instagram"></em></a>
         </div>
         <div class="col-lg-3">
-          <a href="https://github.com/prabhdeepsingh3499" aria-label="click here to open Github page"><em
-              class="fa fa-github"></em></a>
+          <a href="https://github.com/prabhdeepsingh3499" title="Github page"><em class="fa fa-github"></em></a>
         </div>
       </div>
     </div>
