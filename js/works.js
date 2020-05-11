@@ -65,6 +65,11 @@ const dark = () => {
     for (var i = 0; i < h1_length; i++) {
         h1_arr[i].style.color = '#FFFF33';
     }
+    var h2_arr = document.querySelectorAll("h2");
+    var h2_length = h2_arr.length;
+    for (var i = 0; i < h2_length; i++) {
+        h2_arr[i].style.color = '#FFFF33';
+    }
     document.getElementById("maincontent").style.color = '#FFFF33';
 }
 const grey = () => {
@@ -80,6 +85,11 @@ const grey = () => {
     for (var i = 0; i < h1_length; i++) {
         h1_arr[i].style.color = '#FFFF33';
     }
+    var h2_arr = document.querySelectorAll("h2");
+    var h2_length = h2_arr.length;
+    for (var i = 0; i < h2_length; i++) {
+        h2_arr[i].style.color = '#FFFF33';
+    }
     document.getElementById("maincontent").style.color = '#FFFF33';
 }
 const light = () => {
@@ -94,6 +104,11 @@ const light = () => {
     var h1_length = h1_arr.length;
     for (var i = 0; i < h1_length; i++) {
         h1_arr[i].style.color = 'white';
+    }
+    var h2_arr = document.querySelectorAll("h2");
+    var h2_length = h2_arr.length;
+    for (var i = 0; i < h2_length; i++) {
+        h2_arr[i].style.color = 'black';
     }
     document.getElementById("maincontent").style.color = "black";
 }

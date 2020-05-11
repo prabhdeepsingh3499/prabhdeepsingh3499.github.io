@@ -1,5 +1,10 @@
 const increaseTxt = () => {
     document.getElementById("maincontent").style.fontSize = `45px`;
+    var arr = document.querySelectorAll("p");
+    var length = arr.length;
+    for (var i = 0; i < length; i++) {
+        arr[i].style.fontSize = '20px';
+    }
     var listarr = document.querySelectorAll("li");
     var l_length = listarr.length;
     for (var j = 0; j < l_length; j++) {
