@@ -1,6 +1,2 @@
-Thanks for downloading this template!
 
-Template Name: Instant
-Template URL: https://templatemag.com/instant-bootstrap-personal-template/
-Author: TemplateMag.com
-License: https://templatemag.com/license/
+A Portfolio of my work made to comply with WCAG 2.0 Guidelines.
